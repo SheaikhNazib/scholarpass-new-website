@@ -529,7 +529,7 @@ export default function HomePage() {
           </div>
 
           <div className="text-center">
-            <Button size="lg" asChild>
+            <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" size="lg" asChild>
               <Link href="/k12-tutoring">
                 <BookOpenIcon className="mr-2 h-4 w-4" />
                 View All K-12 Programs
@@ -636,7 +636,7 @@ export default function HomePage() {
                     </Badge>
                   </div>
                   <div className="text-2xl font-bold text-primary mb-4">{bootcamp.price}</div>
-                  <Button className="w-full" asChild>
+                  <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" asChild>
                     <Link href={`/bootcamps/${i}`}>View Details</Link>
                   </Button>
                 </CardContent>
@@ -711,7 +711,7 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-8">
-            <Button size="lg" asChild>
+            <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" size="lg" asChild>
               <Link href="/institutes">Browse All Institutes →</Link>
             </Button>
           </div>
@@ -761,7 +761,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" asChild>
+                <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" size="lg" asChild>
                   <Link href="/devices">Shop Devices</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -885,7 +885,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <Button size="lg" asChild>
+            <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" size="lg" asChild>
               <Link href="/edupreneur">Learn About Edupreneur →</Link>
             </Button>
           </div>
@@ -948,7 +948,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" asChild>
+                <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" size="lg" asChild>
                   <Link href="/launchpad">Explore LaunchPad</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -1058,7 +1058,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <Button size="lg" className="w-full md:w-auto px-8">
+              <Button size="lg" className="w-full md:w-auto px-8 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 ">
                 <MapPinIcon />
                 Find LearningHubs Near Me
               </Button>
@@ -1149,7 +1149,7 @@ export default function HomePage() {
                                 <MapPinIcon />
                                 Directions
                               </Button>
-                              <Button size="sm">
+                              <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" size="sm">
                                 View Details
                                 <ChevronRightIcon />
                               </Button>
@@ -1234,7 +1234,7 @@ export default function HomePage() {
               Start accessing scholarships, tutoring, and career opportunities through ScholarPASS
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" asChild>
+              <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" size="lg" asChild>
                 <Link href="/get-started">Get Started Free</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
