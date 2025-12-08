@@ -12,6 +12,7 @@ import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import FinalCtaSection from "@/components/landing/FinalCtaSection";
 
 export default function Home() {
+//comment
   return (
     <div className="flex flex-col">
       <HeroSection />
